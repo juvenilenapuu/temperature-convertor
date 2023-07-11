@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="content">
+        <h1>Calculator</h1>
+        <h5>Calculate Sum of two numbers</h5>
+        <label for="">Number 1:</label> <br />
+        <input type="number" id="num1" placeholder="Enter first number" />
+        <br />
+        <br />
+        <label for="">Number 2:</label> <br />
+        <input type="number" id="num2" placeholder="Enter second number" />
+        <br />
+        <br />
+        <label for="">Results:</label> <br />
+        <input type="number" id="sum" readonly /> <br />
+        <br />
+        <p id="result"></p>
+        <button onclick="add();">RESULT</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

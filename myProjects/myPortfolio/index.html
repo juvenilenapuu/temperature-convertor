@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-portfolio-website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .navigation {
+      background-color: grey;
+      display: flex;
+      flex-shrink: initial;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .navigation a {
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      font-size: larger;
+      color: white;
+      margin-left: 20px;
+      text-shadow: -2px -2px 5px black;
+    }
+
+    a:hover {
+      text-decoration: 2px solid white underline;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url("200w\ \(2\).webp");
+      background-size: cover;
+      height: 700px;
+      color: white;
+      border-bottom-left-radius: 200rem;
+      border-top-right-radius: 200rem;
+    }
+
+    .spn2 {
+      color: red;
+    }
+    .spn3 {
+      color: red;
+      color: var("red, blue, orange");
+    }
+  </style>
+  <body>
+    <div class="navigation">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SKILLS</a>
+      <a href="#">SERVICES</a>
+      <a href="#">CONTACT</a>
+    </div>
+    <div class="content">
+      <h1>
+        <span class="spn1">THIS </span> IS <span class="spn2">MY</span>
+        <span class="spn3">WORLD😎</span>
+      </h1>
+    </div>
+  </body>
+</html>

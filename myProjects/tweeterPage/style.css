@@ -1,0 +1,272 @@
+body {
+  background-color: rgb(230, 236, 240);
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 46px;
+  z-index: 100;
+  background-color: white;
+}
+
+#header a[href="#"] {
+  color: rgb(133, 146, 155);
+  font-weight: 800;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+
+#header a[href="#"]:hover {
+  text-decoration: 2px solid #4ab3f4 underline;
+  color: #4ab3f4;
+}
+
+#header img {
+  width: 30px;
+  height: 30px;
+  margin-left: 100px;
+}
+
+.side-tweet {
+  color: white;
+  background-color: #4ab3f4;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: sans-serif;
+  /* padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px; */
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+#Wrapper {
+  max-width: 1190px;
+  margin: 56px auto;
+  background-color: #e6ecf0;
+}
+
+.content-left {
+  width: 290px;
+  float: left;
+}
+
+.cover-pic {
+  min-height: 90px;
+  background-color: black;
+}
+
+.cover-pic p {
+  font-family: sans-serif;
+  font-weight: 900;
+  color: white;
+  /* padding-left: 90px;
+  padding-top: 30px; */
+  padding: 30px 0px 0px 90px;
+}
+
+.prof-pic {
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.prof-pic img {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+}
+
+.prof-pic b {
+  font-family: sans-serif;
+  font-weight: 800;
+  color: black;
+  text-decoration: underline;
+}
+
+.prof-pic span {
+  color: rgb(133, 146, 155);
+  margin-top: 0;
+  margin-left: 75px;
+}
+
+.prof-stats {
+  background-color: white;
+  padding-bottom: 15px;
+}
+
+.prof-stats b {
+  margin-left: 15px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: black;
+}
+
+.number b {
+  color: #4ab3f4;
+  padding-left: 10px;
+}
+
+#content-center {
+  background-color: white;
+  float: left;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.tweet {
+  border-bottom: 1px solid #e6ecf0;
+  min-height: 51px;
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+.tweet img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  float: left;
+}
+
+.tweet b {
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.tweet span {
+  color: rgb(133, 146, 155);
+  font-family: sans-serif;
+}
+
+#content-right {
+  width: 290px;
+  float: left;
+  background-color: white;
+  padding-bottom: 10px;
+  margin-left: 5px;
+}
+
+.follow1 h3 {
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.follow1 img {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+  float: left;
+}
+
+.follow1 b {
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.follow1 span {
+  color: rgb(133, 146, 155);
+}
+
+.follow1 button {
+  background-color: white;
+  border-radius: 30px;
+  border-color: #4ab3f4;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.follow1 hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0.5;
+}
+
+.follow2 img {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+  float: left;
+}
+
+.follow2 b {
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-left: 20px;
+}
+.follow2 span {
+  color: rgb(133, 146, 155);
+}
+
+.follow2 button {
+  color: #4ab3f4;
+  background-color: white;
+  border-radius: 30px;
+  border-color: #4ab3f4;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-color: none;
+}
+
+.follow2 hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1200px) {
+  #content-left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #header a {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #header {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #content-center {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #content-right {
+    display: none;
+  }
+}

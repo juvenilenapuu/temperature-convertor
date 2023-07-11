@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin-left: 450px;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+
+  .card img {
+  border: none;
+  width: 200px;
+  height: 200px;
+  margin-left: 65px;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+.card p {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 20px;
+  font-style: normal;
+}
+
+.gg-profile {
+  margin-left: 30px;
+  float: left;
+  margin-top: 10px;
+  color: green;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    margin: auto;
+    align-content: center;
+  }
+}

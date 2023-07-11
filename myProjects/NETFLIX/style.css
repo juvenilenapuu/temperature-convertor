@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptext{
+    color: white;
+    margin-top: 200px;
+    font-size: 300px;
+    font-family:arial;
+    text-shadow: 20px 10px 3px black;
+    font-weight: bold;
+    display: flex;
+    flex-wrap:nowrap;
+}

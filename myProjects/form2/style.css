@@ -1,0 +1,41 @@
+#form-body {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  box-sizing: content-box;
+  box-shadow: black;
+  border-radius: 10px;
+}
+
+label {
+  font-weight: 500;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+#btn {
+  position: relative;
+  padding: 10px 20px;
+  color: white;
+  background-color: #141e30;
+  font-size: 16px;
+  letter-spacing: 4px;
+  border-radius: 5px;
+  border-top: none;
+}
+
+.input-box {
+  width: 8cm;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+
+.Options {
+  width: 5cm;
+}

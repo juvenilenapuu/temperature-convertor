@@ -1,0 +1,25 @@
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  margin-top: 100px;
+ 
+}
+
+button {
+  margin: 0 0 5px 50px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}

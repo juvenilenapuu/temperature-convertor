@@ -1,0 +1,62 @@
+#name{
+  text-align: center;
+  color:black;
+  font-family:sans-serif;
+}
+
+
+#mainForm
+{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 400px;
+  margin-left: 400px;
+  border-style:ridge;
+  border-radius: 10px;
+  border: 1px solid white;
+  border-width: 2px;
+  background-color:white;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+
+.h2{
+  text-align: center;
+}
+
+.input1{
+  padding-right: 250px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-bottom: 10px;
+}
+
+
+.input2{
+  padding-right: 250px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-bottom: 10px;
+}
+
+
+.input3{
+  padding-bottom: 150px;
+  padding-right: 240px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+
+.Button{
+  border-color: rgb(53, 53, 53);
+  padding: 5px;
+  border-radius: 5px;
+ background-color: rgb(53, 53, 53);
+ color: white;
+ margin-left: 35%;
+ margin-right: 35%;
+}
+
+

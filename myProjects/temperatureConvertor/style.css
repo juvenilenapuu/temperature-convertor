@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 0 5px 10px 5px;
+    margin-top: 200px;
+}
+
+h4{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+button{
+    margin: 0 0 0 150px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
