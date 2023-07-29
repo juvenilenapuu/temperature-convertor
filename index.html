@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Temperature-Convertor</title>
+    <title>Temperature Convertor</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="container">
       <div class="content">
         <h1>Temperature Convertor</h1>
-        <input type="number" id="Celsius" placeholder="Celsius" />
+        <input type="number" id="Celsius"
+         placeholder="Enter Degrees in Celsius" />
         =
-        <input type="number" id="Fahrenheit" placeholder="Fahrenheit" Readonly/>
+        <input
+          type="number"
+          id="Fahrenheit"
+          placeholder="Fahrenheit"
+          disabled
+        />
         <br />
         <br />
         <button onclick="Convert()">CONVERT</button>
       </div>
-    </div>
     <script src="script.js"></script>
   </body>
 </html>
